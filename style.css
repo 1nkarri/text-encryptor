@@ -26,6 +26,10 @@ p {
     background: var(--bg-color);
 }
 
+.main {
+    display: flex;
+}
+
 .card {
     background: var(--white-color);
 }
@@ -35,3 +39,7 @@ p {
     color: var(--white-color);
 }
 
+.button-ghost {
+    background: transparent;
+    border-color: var(--blue-principal);
+}
