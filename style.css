@@ -1,0 +1,37 @@
+:root {
+    --bg-color: #F3F5FC;
+    --white-color: #FFFFFF;
+    --blue-principal: #0A3871;
+
+    --text-color-primary: var(--blue-principal);
+    --title-color: #343A40;
+    --text-color: #495057;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h3 {
+    color: var(--title-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+.body {
+    background: var(--bg-color);
+}
+
+.card {
+    background: var(--white-color);
+}
+
+.button {
+    background: var(--blue-principal);
+    color: var(--white-color);
+}
+
